@@ -17,7 +17,7 @@ n_modes = 500;
 cov_nmodes = covn(eigvecs,eigvals,n_modes);
 
 %% Comparison with DNase/ATAC-seq
-dnasefile_raw = 'InputData/GM12878DukeDNaseSeq.pk';
+dnasefile_raw = 'InputData/ENCFF000SKV.pk';
 atacfile_raw = 'InputData/GM12878_ATACseq_50k_AllReps_ZINBA_pp08.bed';
 % read .pk and .bed files and write to .mat files
 readNarrowPk(dnasefile_raw, 1, 'OutputData/');
