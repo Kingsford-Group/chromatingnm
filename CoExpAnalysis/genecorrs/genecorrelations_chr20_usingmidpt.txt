@@ -1,0 +1,1 @@
+Interval1start	Interval1end	Interval2start	Interval2end	GNMweight	Gene1	Gene2	GeneDistance	GeneCorr
